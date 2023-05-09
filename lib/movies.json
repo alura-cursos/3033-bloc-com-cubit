@@ -1,0 +1,313 @@
+{
+  "filmes": 
+  [
+    {
+      "name": "Inception",
+      "classification": "14",
+      "duration": "02h 28min",
+      "sinopse": "Um ladrão profissional rouba informações ao infiltrar-se nos sonhos das pessoas.",
+      "genre": "Suspense",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_FMjpg_UY2048_.jpg",
+      "sessions": [
+        "10:00",
+        "13:30",
+        "16:45",
+        "20:00"
+      ]
+    },
+    {
+      "name": "Forrest Gump",
+      "classification": "12",
+      "duration": "02h 22min",
+      "sinopse": "A vida e as aventuras de um homem comum e seu impacto na história dos EUA.",
+      "genre": "Drama",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX558_.jpg",
+      "sessions": [
+        "09:45",
+        "14:15",
+        "18:30",
+        "21:00"
+      ]
+    },
+    {
+      "name": "Pulp Fiction",
+      "classification": "18",
+      "duration": "02h 28min",
+      "sinopse": "As vidas de dois assassinos, um boxeador e um casal se cruzam no submundo do crime.",
+      "genre": "Drama",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1055_.jpg",
+      "sessions": [
+        "10:00",
+        "13:15",
+        "17:45",
+        "22:30"
+      ]
+    },
+    {
+      "name": "The Godfather",
+      "classification": "18",
+      "duration": "02h 25min",
+      "sinopse": "A história de uma família de mafiosos e a luta pelo poder.",
+      "genre": "Drama",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY1982_.jpg",
+      "sessions": [
+        "11:00",
+        "15:30",
+        "20:15"
+      ]
+    },
+    {
+      "name": "Fight Club",
+      "classification": "18",
+      "duration": "02h 19min",
+      "sinopse": "Um homem desiludido com a vida forma um clube secreto de luta.",
+      "genre": "Drama",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BNDIzNDU0YzEtYzE5Ni00ZjlkLTk5ZjgtNjM3NWE4YzA3Nzk3XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UY3000_.jpg",
+      "sessions": [
+        "09:30",
+        "12:45",
+        "16:00",
+        "19:15",
+        "22:00"
+      ]
+    },
+    {
+      "name": "The Shawshank Redemption",
+      "classification": "16",
+      "duration": "02h 22min",
+      "sinopse": "Um banqueiro é preso por um crime que não cometeu e busca redenção.",
+      "genre": "Drama",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1200_.jpg",
+      "sessions": [
+        "10:15",
+        "14:00",
+        "17:45",
+        "21:30"
+      ]
+    },
+    {
+      "name": "The Dark Knight",
+      "classification": "14",
+      "duration": "02h 32min",
+      "sinopse": "Batman enfrenta seu maior inimigo, o Coringa, enquanto lida com a justiça e a corrupção.",
+      "genre": "Suspense",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UY2048_.jpg",
+      "sessions": [
+        "11:30",
+        "15:00",
+        "18:30",
+        "22:00"
+      ]
+    },
+    {
+      "name": "Interstellar",
+      "classification": "12",
+      "duration": "02h 49min",
+      "sinopse": "Astronautas buscam um novo lar para a humanidade no espaço.",
+      "genre": "Drama",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UY3600_.jpg",
+      "sessions": [
+        "09:00",
+        "12:30",
+        "16:00",
+        "19:30",
+        "23:00"
+      ]
+    },
+    {
+      "name": "The Matrix",
+      "classification": "16",
+      "duration": "02h 16min",
+      "sinopse": "Um hacker descobre a verdade sobre a realidade e se rebela contra o sistema.",
+      "genre": "Suspense",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UY3156_.jpg",
+      "sessions": [
+        "10:45",
+        "14:30",
+        "18:15",
+        "22:00"
+      ]
+    },
+    {
+      "name": "The Hangover",
+      "classification": "18",
+      "duration": "01h 40min",
+      "sinopse": "Três amigos acordam após uma despedida de solteiro e não lembram o que aconteceu.",
+      "genre": "Comédia",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BNGQwZjg5YmYtY2VkNC00NzliLTljYTctNzI5NmU3MjE2ODQzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY4592_.jpg",
+      "sessions": [
+        "11:00",
+        "13:45",
+        "16:30",
+        "19:15",
+        "22:00"
+      ]
+    },
+    {
+      "name": "Get Out",
+      "classification": "16",
+      "duration": "01h 44min",
+      "sinopse": "Um jovem negro descobre um segredo sinistro ao visitar a família de sua namorada branca.",
+      "genre": "Terror",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_FMjpg_UY2048_.jpg",
+      "sessions": [
+        "10:30",
+        "13:00",
+        "15:30",
+        "18:00",
+        "20:30",
+        "23:00"
+      ]
+    },
+    {
+      "name": "Whiplash",
+      "classification": "14",
+      "duration": "01h 47min",
+      "sinopse": "Um jovem baterista enfrenta um professor rigoroso em busca da perfeição.",
+      "genre": "Drama",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UY5333_.jpg",
+      "sessions": [
+        "11:15",
+        "14:45",
+        "18:15",
+        "21:45"
+      ]
+    },
+    {
+      "name": "Up",
+      "classification": "Livre",
+      "duration": "01h 36min",
+      "sinopse": "Um idoso e um jovem aventureiro viajam juntos em uma casa voadora.",
+      "genre": "Comédia",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BYjBkM2RjMzItM2M3Ni00N2NjLWE3NzMtMGY4MzE4MDAzMTRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_FMjpg_UX509_.jpg",
+      "sessions": [
+        "10:30",
+        "13:00",
+        "15:30",
+        "18:00",
+        "20:30"
+      ]
+    },
+    {
+      "name": "Django Unchained",
+      "classification": "18",
+      "duration": "02h 45min",
+      "sinopse": "Um escravo liberto busca vingança e a libertação de sua esposa.",
+      "genre": "Drama",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_FMjpg_UY2048_.jpg",
+      "sessions": [
+        "10:00",
+        "13:45",
+        "17:30",
+        "21:15"
+      ]
+    },
+    {
+      "name": "Parasite",
+      "classification": "16",
+      "duration": "02h 12min",
+      "sinopse": "Uma família pobre se infiltra em uma família rica, com consequências imprevisíveis.",
+      "genre": "Suspense",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UY3556_.jpg",
+      "sessions": [
+        "09:30",
+        "12:30",
+        "15:30",
+        "18:30",
+        "21:30"
+      ]
+    },
+    {
+      "name": "The Shining",
+      "classification": "18",
+      "duration": "02h 26min",
+      "sinopse": "Um escritor e sua família enfrentam forças sobrenaturais em um hotel isolado.",
+      "genre": "Terror",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX627_.jpg",
+      "sessions": [
+        "11:00",
+        "14:00",
+        "17:00",
+        "20:00",
+        "23:00"
+      ]
+    },
+    {
+      "name": "Mad Max: Fury Road",
+      "classification": "16",
+      "duration": "02h 00min",
+      "sinopse": "Em um mundo pós-apocalíptico, uma mulher e um nômade unem forças contra um tirano.",
+      "genre": "Suspense",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX675_.jpg",
+      "sessions": [
+        "10:45",
+        "13:45",
+        "16:45",
+        "19:45",
+        "22:45"
+      ]
+    },
+    {
+      "name": "The Big Lebowski",
+      "classification": "18",
+      "duration": "01h 57min",
+      "sinopse": "Um desempregado e seu amigo se envolvem em uma trama de sequestro e extorsão.",
+      "genre": "Comédia",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BMTQ0NjUzMDMyOF5BMl5BanBnXkFtZTgwODA1OTU0MDE@._V1_FMjpg_UX932_.jpg",
+      "sessions": [
+        "12:00",
+        "15:00",
+        "18:00",
+        "21:00"
+      ]
+    },
+    {
+      "name": "A Quiet Place",
+      "classification": "14",
+      "duration": "01h 30min",
+      "sinopse": "Uma família luta pela sobrevivência em um mundo dominado por criaturas mortais.",
+      "genre": "Terror",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BMjI0MDMzNTQ0M15BMl5BanBnXkFtZTgwMTM5NzM3NDM@._V1_FMjpg_UY2048_.jpg",
+      "sessions": [
+        "11:15",
+        "13:45",
+        "16:15",
+        "18:45",
+        "21:15",
+        "23:45"
+      ]
+    },
+    {
+      "name": "La La Land",
+      "classification": "12",
+      "duration": "02h 08min",
+      "sinopse": "Um pianista e uma atriz perseguem seus sonhos e encontram o amor em Los Angeles.",
+      "genre": "Drama",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_FMjpg_UY6000_.jpg",
+      "sessions": [
+        "10:30",
+        "13:30",
+        "16:30",
+        "19:30",
+        "22:30"
+      ]
+    },
+    {
+      "name": "Toy Story",
+      "classification": "Livre",
+      "duration": "01h 21min",
+      "sinopse": "Brinquedos ganham vida quando seus donos não estão por perto e vivem grandes aventuras.",
+      "genre": "Comédia",
+      "imageURI": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_FMjpg_UX1005_.jpg",
+      "sessions": [
+        "09:15",
+        "11:45",
+        "14:15",
+        "16:45",
+        "19:15",
+        "21:45"
+      ]
+    }
+  ]
+}
+
