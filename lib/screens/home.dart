@@ -18,6 +18,7 @@ class _HomeState extends State<Home> {
 
   @override
   void initState() {
+    homeCubit.getMovies();
     super.initState();
   }
 
@@ -39,9 +40,9 @@ class _HomeState extends State<Home> {
               BlocBuilder<HomeCubit, HomeStates>(
                 bloc: homeCubit,
                 builder: (context, state) {
-                  if(state == HomeLoading) {
-                    return SliverFillRemaining(child: Center(child: CircularProgressIndicator(),));
-                  } else if(state == HomeSuccess) {
+                  if(state is HomeLoading) {
+                    return const SliverFillRemaining(child: Center(child: CircularProgressIndicator(),));
+                  } else if(state is HomeSuccess) {
                     return SliverGrid.builder(
                       gridDelegate:
                           const SliverGridDelegateWithFixedCrossAxisCount(
@@ -51,20 +52,21 @@ class _HomeState extends State<Home> {
                       ),
                       itemBuilder: (context, index) {
                         return MovieCard(
-                            movie: Movie(
-                                name: "James Bond",
-                                classification: Classification.naoRecomendado12,
-                                duration: "1h 22min",
-                                sinopse: "James Bond é um agente",
-                                genre: "Suspense",
-                                imageURI: null,
-                                sessions: ["18:00"]));
+                            movie: state.movies[index]);
                       },
-                      itemCount: 5,
+                      itemCount: state.movies.length,
                     );
-                  } else {
-                    return SliverFillRemaining(child: Center(child: Text('Deu erro'),));
+                  } else if(state is HomeError){
+                    return SliverFillRemaining(child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        const Icon(Icons.not_interested, size: 30.0,),
+                        const SizedBox(height: 16.00,),
+                        Text(state.error)
+                      ],
+                    ));
                   }
+                  return SliverToBoxAdapter(child: Container(),);
                 },
               ),
             ],
