@@ -6,6 +6,14 @@ class HomeInitial extends HomeStates {}
 
 class HomeLoading extends HomeStates {}
 
-class HomeSuccess extends HomeStates {}
+class HomeSuccess extends HomeStates {
+  HomeSuccess(this.movies);
 
-class HomeError extends HomeStates {}
+  final List<Movie> movies;
+}
+
+class HomeError extends HomeStates {
+  HomeError(this.error);
+
+  final String error;
+}
