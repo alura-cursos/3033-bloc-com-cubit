@@ -43,19 +43,30 @@ class _HomeState extends State<Home> {
                   if(state is HomeLoading) {
                     return const SliverFillRemaining(child: Center(child: CircularProgressIndicator(),));
                   } else if(state is HomeSuccess) {
-                    return SliverGrid.builder(
-                      gridDelegate:
-                          const SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 2,
-                        crossAxisSpacing: 16,
-                        mainAxisExtent: 240,
-                      ),
-                      itemBuilder: (context, index) {
-                        return MovieCard(
-                            movie: state.movies[index]);
-                      },
-                      itemCount: state.movies.length,
-                    );
+                    if(state.movies.isEmpty) {
+                      return SliverFillRemaining(child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: const <Widget>[
+                          Icon(Icons.not_interested, size: 30.0,),
+                          SizedBox(height: 16.0,),
+                          Text("Não existem filmes com este gênero!"),
+                        ],
+                      ),);
+                    } else {
+                      return SliverGrid.builder(
+                        gridDelegate:
+                            const SliverGridDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: 2,
+                          crossAxisSpacing: 16,
+                          mainAxisExtent: 240,
+                        ),
+                        itemBuilder: (context, index) {
+                          return MovieCard(
+                              movie: state.movies[index]);
+                        },
+                        itemCount: state.movies.length,
+                      );
+                    }
                   } else if(state is HomeError){
                     return SliverFillRemaining(child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
