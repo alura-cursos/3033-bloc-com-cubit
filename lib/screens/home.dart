@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
                   style: Theme.of(context).textTheme.displayLarge,
                 ),
               ),
-              const GenreFilter(),
+              GenreFilter(homeCubit: homeCubit,),
               BlocBuilder<HomeCubit, HomeStates>(
                 bloc: homeCubit,
                 builder: (context, state) {
