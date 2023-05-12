@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:bilheteria_panucci/components/movie_screen/tab_bar_movie.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../components/movie_screen/poster.dart';
 import '../components/movie_screen/poster_card.dart';
+import '../logic/cubit/theme_cubit.dart';
 import '../models/movie.dart';
 
 class MovieScreen extends StatelessWidget {
@@ -11,6 +13,8 @@ class MovieScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final themeCubit = context.read<ThemeCubit>();
+    themeCubit.changeTheme(movie.genre);
     return Scaffold(
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
